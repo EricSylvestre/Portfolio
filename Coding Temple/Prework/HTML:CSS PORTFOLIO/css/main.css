@@ -1,0 +1,153 @@
+body, html{
+    height: 100%;
+    margins: 0px;
+}
+
+nav li{
+    display:inline-flex;
+    margin:20px;
+}
+
+body{
+    background-color:ghostwhite;
+    margin:0;
+
+
+}
+
+
+
+nav ul{
+    background-color:gold;
+    background-blend-mode: lighten;
+    margin:0;
+    list-style-type:circle;
+    width: 100%;
+    padding: 10px;
+    font-style: italic;
+
+}
+
+h2{
+    color:black;
+    font-family: "Nunito Sans";
+    color:#3A3A3A;
+    margin-left:15px;
+}
+
+h1{
+    font-family:"Nunito Sans";
+    text-shadow: 2px 2px #ffffff;
+    background-color:gold;
+    color:#3A3A3A;
+}
+
+.info, .info2{
+    width:fit-content;
+    margin-left:15px;
+}
+
+p{
+    /*background-color:black;*/
+    color:black;
+    font-family:"Nunito Sans";
+}
+
+nav{
+    display:block;
+    color:white
+
+}
+
+nav a{
+    color:black;
+    text-decoration:none;
+
+}
+
+img{
+    margin-right:25px;
+    width:50%;
+    height:50%;
+    float:right;
+}
+
+nav a:hover{
+    color:white;
+    accent-color: blue;
+}
+
+#main{
+    width:75%;
+    height:100%%;
+    padding-left:px;
+    padding-top:20px;
+
+}
+
+input[type="submit"]{
+    display: block;
+    width: 100%;
+    padding: 5px 0px;
+    margin-top:3px;
+}
+
+label[for="name"]{
+    display:block;
+    margin-bottom:3px;
+}
+
+label[for="body"]{
+    display: block;
+    margin-bottom: -15px;
+    margin-top: 7px;
+}
+
+.side-articles{
+    width: fit-content;
+    margin: auto;
+    padding: 15px 20px;
+    border-radius: 7px;
+    left: -10px;
+    position: relative;
+    box-shadow: 1px 1px 2px 1px #3a3a3a;
+    float: right;
+
+
+
+}
+
+
+.side-articles strong{
+    font-size:  21px;
+    font-family: "Nunito Sans";
+    margin-bottom:-5px;
+    display:block;
+    
+}
+
+.text{
+    color:black;
+    text-align:center;
+    position:sticky;
+    
+}
+
+.about{
+    float: left;
+    width: 40%;
+}
+
+#main::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background-color:#DDD;
+    margin-top:40px;
+}
+
